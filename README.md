@@ -1,15 +1,11 @@
-# Python stocks strategy tester
-Bots framework for stocks strategy testing. History automatically downloads from yahoo finance.  
-
-## Install requirements
-
+## Install
 ```shell
-pip install --upgrade https://github.com/sanprojects/pythonUtils/archive/master.zip
+pip3 install --upgrade https://github.com/sanprojects/pythonUtils/archive/main.zip
 ```
 
 ## Usage   
 ```python
 import utils
-utils.utils.http.enableLogger()
-utils.utils.http.enableCache()
+utils.http.enableLogger()
+utils.http.enableCache()
 ```
