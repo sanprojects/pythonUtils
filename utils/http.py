@@ -1,7 +1,8 @@
-import requests_cache, logging
+import logging
 
 
 def enableCache():
+    import requests_cache
     requests_cache.install_cache()
 
 
